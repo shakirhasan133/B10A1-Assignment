@@ -3,6 +3,7 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
 /* Shared CSS */
 .btn{
     background-color: #fff;
@@ -16,6 +17,15 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+.learn-btn a{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 10px;
+
+}
+
 /* End */
 .header-container{
     display: flex;
@@ -133,3 +143,148 @@ body{
     margin-top: 30px;
     border-radius: 10px;
 }
+
+
+/* my-inspiration section start */
+
+.my-inspiration{
+    width:1365px;
+    margin: 0 auto;
+}
+.my-insp-init{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-insp-video{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    border: 2px solid rgba(13, 19, 33, 0.15);
+
+}
+.my-insp-video iframe{
+    border-radius: 20px;
+    width: 90%;
+    margin: 40px 0;
+}
+/* my-inspiration section end */
+
+/* my current target section start */
+.my-target-container{
+    width: 1000;
+    margin: 0 auto;
+}
+.my-cur-tar-header{
+    text-align: center;
+}
+.my-cur-tar-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 25px;
+}
+.item-html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 30%;
+    padding: 20px 20px;
+}
+.item-css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 30%;
+    padding: 20px 20px;
+}
+.item-js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 30%;
+    padding: 20px 20px;
+}
+
+
+#contact-area{
+    width: 1050px;
+    margin: 0 auto;
+
+    
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 320px;
+}
+.child1{
+    margin: 5%;
+}
+
+.child1 h2{
+    color: white;
+}
+.child1 p{
+    color: white;
+}
+#contact-message{
+    height: 45px;
+    width: 400px;
+}
+.child2 input{
+    padding-left: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-style: none;
+}
+.child2 input:active{
+    border: none;
+}
+#contact-btn{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    margin-top: 10px;
+    padding:12px 15px ;
+    border-radius: 10px;
+    border-style: none;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
