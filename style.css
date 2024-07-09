@@ -32,3 +32,47 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+
+/* hero area css Start Here */
+.hero-container{
+    width: 1440;
+    height: 650;
+    display: flex;
+    justify-content: center;
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-content img{
+    margin-top: 20px;
+}
+.hero-content h1{
+    width: 70%;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.hero-content p{
+    width: 70%;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.contact-btn{
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+    padding: 18px 21px 18px 21px ;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
