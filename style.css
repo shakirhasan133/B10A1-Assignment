@@ -3,6 +3,9 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+button{
+    border-style: none;
+}
 
 /* Shared CSS */
 .btn{
@@ -102,9 +105,11 @@ body{
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    padding-bottom: 50px;
 }
 .do-cooding-area{
-    background: linear-gradient(to left,rgba(13, 19, 33, 0.02),#fff);
+    background: rgb(250,250,251);
+    background: linear-gradient(to left, rgba(250,250,251,1) 39%, rgba(255,255,255,1) 100%);
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
@@ -137,7 +142,8 @@ body{
 }
 
 .do-cooding-area2{
-    background: linear-gradient(to right,rgba(13, 19, 33, 0.02),#fff);
+    background: rgb(250,250,251);
+    background: linear-gradient(90deg, rgba(250,250,251,1) 39%, rgba(255,255,255,1) 100%);
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
@@ -150,14 +156,21 @@ body{
 .my-inspiration{
     width:1365px;
     margin: 0 auto;
+    padding-top: 50px;
 }
 .my-insp-init{
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+.my-insp-init h2{
+    margin-top: 100px;
+}
+.my-insp-init p{
+    margin-bottom: 50px;
+}
 .my-insp-video{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 20px;
     display: flex;
@@ -169,18 +182,22 @@ body{
 }
 .my-insp-video iframe{
     border-radius: 20px;
-    width: 90%;
+    width: 95%;
     margin: 40px 0;
 }
 /* my-inspiration section end */
 
 /* my current target section start */
+.my-cur-target{
+    margin-top: 50px;
+}
 .my-target-container{
     width: 1000;
     margin: 0 auto;
 }
 .my-cur-tar-header{
     text-align: center;
+    margin-bottom: 50px;
 }
 .my-cur-tar-content{
     width: 80%;
@@ -220,7 +237,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 12px;
@@ -230,10 +246,10 @@ body{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-    height: 320px;
+    height: 300px;
 }
 .child1{
-    margin: 5%;
+    margin: 3%;
 }
 
 .child1 h2{
@@ -250,22 +266,25 @@ body{
     padding-left: 10px;
     color: #000;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 10px;
     border-style: none;
+    font-family: Azeret mono;
 }
-.child2 input:active{
+.child2 input:focus{
     border: none;
+    outline: none;
 }
 #contact-btn{
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: rgb(13, 19, 33);
     margin-top: 10px;
-    padding:12px 15px ;
+    padding:14px 16px ;
     border-radius: 10px;
     border-style: none;
+    background: white;
 }
 
 footer{
