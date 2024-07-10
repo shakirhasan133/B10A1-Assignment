@@ -3,6 +3,11 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* Reusalbe component */
+.my-cur-target{
+    max-width: 1365px;
+    margin: 0 auto;
+}
 button{
     border-style: none;
 }
@@ -46,6 +51,12 @@ button{
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    transition: 1s;
+}
+.resume-d-container button:hover{
+    background: rgb(217,217,222);
+    background: linear-gradient(236deg, rgba(217,217,222,1) 36%, rgba(255,255,255,1) 100%);
+
 }
 
 /* hero area css Start Here */
@@ -158,6 +169,15 @@ button{
     margin: 0 auto;
     padding-top: 50px;
 }
+.my-insp-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
 .my-insp-init{
     width: 80%;
     margin: 0 auto;
@@ -170,7 +190,7 @@ button{
     margin-bottom: 50px;
 }
 .my-insp-video{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 20px;
     display: flex;
@@ -192,7 +212,7 @@ button{
     margin-top: 50px;
 }
 .my-target-container{
-    width: 1000;
+    width: 100%;
     margin: 0 auto;
 }
 .my-cur-tar-header{
@@ -200,30 +220,28 @@ button{
     margin-bottom: 50px;
 }
 .my-cur-tar-content{
-    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    align-items: center;
     gap: 25px;
+    width: 80%;
 }
-.item-html{
+.items{
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    width: 30%;
     padding: 20px 20px;
+    height: 200px;
+}
+.item-html{
+    background: rgba(255, 76, 30, 0.05);
 }
 .item-css{
-    border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
-    width: 30%;
-    padding: 20px 20px;
 }
 .item-js{
-    border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
-    width: 30%;
-    padding: 20px 20px;
 }
 
 
