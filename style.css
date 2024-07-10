@@ -167,7 +167,6 @@ button{
 .my-inspiration{
     width:1365px;
     margin: 0 auto;
-    padding-top: 50px;
 }
 .my-insp-container{
     width: 80%;
@@ -184,7 +183,7 @@ button{
     text-align: center;
 }
 .my-insp-init h2{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .my-insp-init p{
     margin-bottom: 50px;
